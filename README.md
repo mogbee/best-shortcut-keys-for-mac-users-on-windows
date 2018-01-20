@@ -18,3 +18,7 @@ Put script to your startup.
 1. Drag and drop ```BskMoW.ahk``` to startup folder.
 
 Let's enjoy!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
