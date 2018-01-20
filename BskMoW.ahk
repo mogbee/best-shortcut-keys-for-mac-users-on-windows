@@ -4,7 +4,6 @@
 ; Create terminals group
 ; You can add an application you want to disable the hot keys.
 GroupAdd, Terminals, ahk_class ConsoleWindowClass
-GroupAdd, VirtualNonWindows, ahk_class Qt5QWindowIcon
 
 #IfWinNotActive ahk_group Terminals
 {
@@ -41,12 +40,9 @@ GroupAdd, VirtualNonWindows, ahk_class Qt5QWindowIcon
 }
 
 ; Mouse
-#IfWinNotActive ahk_group VirtualNonWindows
-{
-  #LButton::Send ^{LButton}
-  WheelUp::Send {WheelDown}
-  WheelDown::Send {WheelUp}
-}
+#LButton::Send ^{LButton}
+WheelUp::Send {WheelDown}
+WheelDown::Send {WheelUp}
 
 ; Japanese
 #Space::Send, {vkF3sc029}
