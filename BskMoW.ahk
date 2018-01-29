@@ -40,9 +40,10 @@ GroupAdd, Terminals, ahk_class ConsoleWindowClass
 }
 
 ; Mouse
-#LButton::Send ^{LButton}
-WheelUp::Send {WheelDown}
-WheelDown::Send {WheelUp}
+; You don't want to edit registry, uncomment below lines.
+;#LButton::Send ^{LButton}
+;WheelUp::Send {WheelDown}
+;WheelDown::Send {WheelUp}
 
 ; Japanese
 #Space::Send, {vkF3sc029}
