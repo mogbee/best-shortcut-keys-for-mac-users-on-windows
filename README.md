@@ -1,4 +1,4 @@
-# best_autohotkey_on_windows_for_mac_users
+# Best autohotkey on windows for mac users
 Best shortcut keys for Mac users on Windows.
 
 ## Step1
