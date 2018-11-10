@@ -1,5 +1,5 @@
 ; This program is written by mogbee
-; BskMoW
+; Windows to macOS
 
 ; Create terminals group
 ; You can add an application you want to disable the hot keys.
@@ -40,10 +40,22 @@ GroupAdd, Terminals, ahk_class ConsoleWindowClass
 }
 
 ; Mouse
-; You don't want to edit registry, uncomment below lines.
+; You don't want to edit registry, uncomment (delete first ;) below lines.
 ;#LButton::Send ^{LButton}
 ;WheelUp::Send {WheelDown}
 ;WheelDown::Send {WheelUp}
 
-; Japanese
-#Space::Send, {vkF3sc029}
+; Keyboard
+; If you use japanese layout keybord, uncomment (delete first ;) below lines.
+;#Space::Send, {vkF3sc029}
+;CapsLock::Ctrl
+;+2::Send @
+;+6::Send {^}
+;+7::Send &
+;+8::Send *
+;+9::Send (
+;+0::Send )
+;+@::Send {+}
+;:::Send '
+;*::Send "
+;+`;::Send :
