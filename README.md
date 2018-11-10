@@ -6,7 +6,7 @@ If necessary, you can convert the JIS keyboard to US layout immediately.
 
 ## Step1
 
-Install [AutoHotkey](http://www.autohotkey.com/){:target="_blank"}.
+Install <a href="http://www.autohotkey.com" target="_blank">AutoHotkey</a>.
 
 ## Step2
 
