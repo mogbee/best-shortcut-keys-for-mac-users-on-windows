@@ -55,7 +55,7 @@ GroupAdd, Terminals, ahk_class ConsoleWindowClass
 ;+8::Send *
 ;+9::Send (
 ;+0::Send )
-;+@::Send {+}
+;+^::Send {+}
 ;:::Send '
 ;*::Send "
 ;+`;::Send :
